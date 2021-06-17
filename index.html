@@ -10,12 +10,16 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <main class="container">
-        <section class="listado-canciones">
-            <div class="cancion">
-                <div class="titulo">
+        <section class="list-songs">
+            <div class="song">
+                <img src="./images/yonaguni.png" alt="Yonaguni" class="photo">
+                <div class="title">
                     Bad Bunny - Yonaguni
                 </div>
                 <div class="play">
@@ -34,8 +38,50 @@
                     </span>
                 </div>
             </div>
+            <div class="song">
+                <img src="./images/booker.jpg" alt="Yonaguni" class="photo">
+                <div class="title">
+                    Bad Bunny - Booket T
+                </div>
+                <div class="play">
+                    <span class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons">
+                        stop_circle
+                    </span>
+                </div>
+                <div class="download">
+                    <span class="material-icons">
+                        file_download
+                    </span>
+                </div>
+            </div>
+            <div class="song">
+                <img src="./images/foreign.jpg" alt="Yonaguni" class="photo">
+                <div class="title">
+                    Kidd Keo - Foreign
+                </div>
+                <div class="play">
+                    <span class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons">
+                        stop_circle
+                    </span>
+                </div>
+                <div class="download">
+                    <span class="material-icons">
+                        file_download
+                    </span>
+                </div>
+            </div>
 
-            <input type="range" max="1" min="0" step="0.1" class="volumen">
+            <input type="range" max="1" min="0" step="0.1" class="volume">
         </section>
     </main>
     
