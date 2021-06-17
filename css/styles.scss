@@ -55,7 +55,10 @@ html{
     margin-top: 10px;
     background-color: transparent;
 }
-
+.name{
+  color: #000000;
+  align-self: center;
+}
 
 // input range
 input[type=range] {
@@ -146,4 +149,12 @@ input[type=range] {
   }
   input[type=range]:focus::-ms-fill-upper {
     background: #B6B6B6;
+  }
+
+
+
+  @media(min-width:900px){
+    .container{
+      padding: 100px;
+    }
   }
