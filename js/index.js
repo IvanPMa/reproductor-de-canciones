@@ -11,3 +11,13 @@ for(element of playSong){
     });
 }
 
+for(element of stopSong){
+    element.addEventListener('click', function(){
+        audio.pause();
+    });
+}
+
+volume.addEventListener('click',function(){
+    let controlVolume = this.value;
+    audio.volume = controlVolume;
+})
