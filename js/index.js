@@ -24,3 +24,4 @@ volume.addEventListener('click',function(){
     let controlVolume = this.value;
     audio.volume = controlVolume;
 })
+console.log('prueba');
